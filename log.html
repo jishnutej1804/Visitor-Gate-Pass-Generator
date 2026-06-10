@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visitor Log</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Visitor Log</h1>
+
+<nav>
+    <a href="index.html">Form</a>
+    <a href="log.html">Visitor Log</a>
+</nav>
+
+<input type="text" id="search" placeholder="Search..." onkeyup="searchData()">
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Purpose</th>
+            <th>Host</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
